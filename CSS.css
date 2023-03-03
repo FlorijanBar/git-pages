@@ -1,0 +1,21 @@
+body {
+    font-size: 10vw;
+    background-color: var(--black);
+    margin: 100px;
+    font-family: "Ultra", serif;
+  }
+  .motori {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    justify-content: space-around;
+    max-height: 100px;
+    text-align: center;
+  }
+  .motori-slova {
+    animation-name: fontGrow;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: top;
+    transition-timing-function: ease-in-out;
+  }
